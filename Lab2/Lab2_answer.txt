@@ -1,0 +1,43 @@
+(Interrupt-driven method)
+a.Measure the baseline power consumption in mW when no buttons are pressed 
+and no finger is placed on the touch slider.
+Ans:6.46mW
+b. Control the LEDs with each pushbutton and record the power consumption in 
+mW when each LED is lit.
+Ans:7.95mW
+c. Control the LEDs with the touch slider and record the power consumption in mW 
+when each LED is lit.
+Ans:7.95 mW
+d. Light both LEDs using a combination of pushbuttons and the touch slider and 
+record the power consumption in mW.
+Ans:9.42mW
+------------------------------------------------------------------------------------------
+(Polling method)
+a.Measure the baseline power consumption in mW when no buttons are pressed 
+and no finger is placed on the touch slider.
+Ans: 8.95mW
+b. Control the LEDs with each pushbutton and record the power consumption in 
+mW when each LED is lit.
+Ans:10.43mW
+c. Control the LEDs with the touch slider and record the power consumption in mW 
+when each LED is lit.
+Ans:10.45 mW
+d. Light both LEDs using a combination of pushbuttons and the touch slider and 
+record the power consumption in mW.
+Ans:11.90mW
+-----------------------------------------------------------------------------------------
+e. Use the compile-time switch to build, run, and compare the power consumption 
+for the polling method in Part I versus the interrupt-driven method in Part II.
+Ans: Thepolling method in Part I has higher consumption than the interrupt_driven method.
+f. For the interrupt-driven method, reduce the frequency of the SysTick timer and 
+compare the baseline power consumption.
+Ans: The power consumption is about the same, because the CPU is still doing the same thing no matter what
+the frequency is.
+------------------------------------------------------------------------------------------
+Testing:
+My project works fine and pass for both Part I and Part II.
+When both buttons are pressed, no LED is lit. And then release only Btn1 and I observe that only LED0 is lit.
+Release both buttons and observe that no LED is lit.
+Place my finger on the left side of the touch slider, LED0 is lit
+Place my finger on the right side of the touch slider, LED1 is lit
+Place my finger on both the left side and right side of the touch slider, no led is lit.

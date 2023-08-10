@@ -1,0 +1,12 @@
+**/.pdm/
+**/.settings/
+**/autogen/
+**/config/
+**/gecko_sdk_3.2.2/
+**/GNU ARM v10.2.1 - Default/
+**/SystemView/
+*.cproject
+*.project
+*.pintool
+*.slcp
+*.slps

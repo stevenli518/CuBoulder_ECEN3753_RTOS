@@ -1,0 +1,40 @@
+Please include your answers to the questions below with your submission, entering into the space below each question
+See Mastering Markdown for github markdown formatting if desired.
+
+1. Pausing the Energy Profiler, with zooming in while using the linear scale, take the average current measurement to determine the following:
+
+a. Total current drawn when both LEDs are OFF
+
+2.64mA
+
+b. Total current drawn when one LED is ON
+
+3.13mA
+
+c. Total current drawn when both LEDs are ON
+
+3.59mA
+
+2. How much current is one LED consuming?
+
+about 0.48mA
+
+After commenting out gpioDriveStrengthStrongAlternateStrong and uncommenting gpioDriveStrengthWeakAlternateWeak
+
+3. Pausing the Energy Profiler, with zooming in with the linear scale, take the average current measurement to determine the following:
+
+a. Total current drawn when both LEDs are OFF
+
+2.66mA
+
+b. Total current drawn when one LED is ON
+
+3.12mA
+
+c. Total current drawn when two LEDs are ON
+
+3.57mA
+
+4. How much current is one LED consuming?
+
+0.46mA
